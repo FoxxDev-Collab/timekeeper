@@ -47,16 +47,16 @@ pnpm dev
 ## Screenshots
 
 ### Login
-![Screenshot 1](./public/images/Screenshot%202025-08-13%20102446.png)
+![Screenshot 1](./public/images/login.png)
 
 ### Signup
-![Screenshot 2](./public/images/Screenshot%202025-08-13%20102459.png)
+![Screenshot 2](./public/images/signup.png)
 
 ### Time Calendar View (Dark)
-![Screenshot 3](./public/images/Screenshot%202025-08-13%20102536.png)
+![Screenshot 3](./public/images/dashboard.png)
 
-### Time Calendar View (Light)
-![Screenshot 4](./public/images/Screenshot%202025-08-13%20102541.png)
+### Metrics
+![Screenshot 4](./public/images/metrics.png)
 
 ### Manage Projects/Hours
-![Screenshot 5](./public/images/Screenshot%202025-08-13%20102549.png)
+![Screenshot 5](./public/images/settings.png)
