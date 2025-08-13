@@ -59,7 +59,7 @@ pnpm dev
 ![Screenshot 4](./public/images/metrics.png)
 
 ### Manage Projects/Hours
-![Screenshot 5](./public/images/projectss.png)
+![Screenshot 5](./public/images/projects.png)
 
 ### Settings
 ![Screenshot 6](./public/images/settings.png)
