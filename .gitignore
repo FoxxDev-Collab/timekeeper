@@ -1,0 +1,97 @@
+# --- Node / Next.js ---
+node_modules/
+.next/
+.next/cache/
+out/
+.vercel/
+.turbo/
+.cache/
+dist/
+build/
+coverage/
+.eslintcache
+*.tsbuildinfo
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+.env.*.local
+.envrc
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.pid.lock
+
+# --- Tauri / Rust ---
+src-tauri/target/
+target/
+src-tauri/.cargo/
+
+# Common binary artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.bin
+
+# --- Editors / OS junk ---
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Icon?
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
