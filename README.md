@@ -52,7 +52,7 @@ pnpm dev
 ### Signup
 ![Screenshot 2](./public/images/signup.png)
 
-### Time Calendar View (Dark)
+### Time Calendar View
 ![Screenshot 3](./public/images/dashboard.png)
 
 ### Metrics
@@ -60,3 +60,5 @@ pnpm dev
 
 ### Manage Projects/Hours
 ![Screenshot 5](./public/images/settings.png)
+
+
