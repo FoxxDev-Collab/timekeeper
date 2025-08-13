@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, FolderCog, LogOut } from "lucide-react";
+import { Home, FolderCog, LogOut, Settings } from "lucide-react";
 import {
   SidebarProvider,
   Sidebar,
@@ -49,6 +49,14 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
                 <Link href="/projects">
                   <FolderCog />
                   <span>Projects</span>
+                </Link>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton asChild isActive={pathname === "/settings"}>
+                <Link href="/settings">
+                  <Settings />
+                  <span>Settings</span>
                 </Link>
               </SidebarMenuButton>
             </SidebarMenuItem>
